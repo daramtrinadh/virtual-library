@@ -1,0 +1,235 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    background-color: black;
+}
+.link{
+    text-decoration: none;
+}
+.saved-books-btn{
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.focus-in-logo-text {
+    color: white;
+    cursor:pointer;
+    -webkit-animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.library-logo {
+    margin: 10px;
+}
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+    background-color: rgb(45, 43, 43);
+    border-radius: 10px;
+    width:fit-content;
+    padding: 10px;
+}
+.input-search {
+    outline: none;
+    background-color: rgb(45, 43, 43);
+    color: white;
+    border-width: 0px;
+}
+.search-logo {
+    color: white;
+}
+.scale-in-center {
+    color: white;
+    margin: 5px;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+/* For devices with width <= 480px */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        padding: 8px;
+    }
+    .focus-in-logo-text {
+        font-size: 18px;
+        -webkit-animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .search-section {
+        padding: 8px;
+    }
+    .input-search {
+        font-size: 14px;
+    }
+}
+
+/* For devices with width <= 768px */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .focus-in-logo-text {
+        font-size: 22px;
+        -webkit-animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .search-section {
+        width: 100%;
+        padding: 8px;
+    }
+    .input-search {
+        width: 85%;
+        font-size: 16px;
+    }
+}
+
+/* For devices with width <= 834px */
+@media (max-width: 834px) {
+    .header {
+        flex-direction: column;
+        padding: 12px;
+    }
+    .focus-in-logo-text {
+        font-size: 24px;
+        -webkit-animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .search-section {
+        width: 90%;
+        padding: 8px;
+    }
+    .input-search {
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+/* For devices with width <= 1024px */
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        padding: 12px;
+    }
+    .focus-in-logo-text {
+        font-size: 26px;
+        -webkit-animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .search-section {
+        width: 85%;
+        padding: 10px;
+    }
+    .input-search {
+        width: 75%;
+        font-size: 18px;
+    }
+}
+
+/* For devices with width <= 1440px */
+@media (max-width: 1440px) {
+    .header {
+        flex-direction: row;
+        padding: 12px;
+    }
+    .focus-in-logo-text {
+        font-size: 28px;
+        -webkit-animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-logo-text 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .search-section {
+        width: 60%;
+        padding: 12px;
+    }
+    .input-search {
+        width: 70%;
+        font-size: 20px;
+    }
+}
+
+
+@-webkit-keyframes focus-in-logo-text {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-800px);
+        transform: translateZ(-800px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes focus-in-logo-text {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-800px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateZ(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
